@@ -4,14 +4,19 @@
 //recipe to download and install the code, here an example for the CMSSW version 9_2_8
 
 cmsrel CMSSW_9_2_8
+
 cd CMSSW_9_2_8/src
+
 cmsenv
+
 git clone https://github.com/jandrea/TrackingPerf.git
+
 scramv1 b -j4
 
 // to excecute the code and produce the ntuple :
 
 cd TrackingPerf/TrackingPerf/test
+
 cmsRun TrackingPerf_cfg.py
 
 // the TrackingPerf_cfg.py is a python configuration file, the tells CMSSW what to do
