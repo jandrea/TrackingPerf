@@ -1,7 +1,7 @@
 # TrackingPerf
 
 
-//recipe to download and install the code, here an example for the CMSSW version 9_2_8
+//recipe to download and install the code, here is an example for the CMSSW version 9_2_8
 
 cmsrel CMSSW_9_2_8
 
